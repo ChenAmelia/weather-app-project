@@ -7,7 +7,6 @@
 }
 
 .app{
-    display: flex;
 
     &__greeting{
         display: flex;
@@ -25,7 +24,7 @@
         h1{
             font-family: $font-primary;
             font-weight: bolder;
-            font-size: 50px;
+            font-size: 30px;
             margin-right: 25px;
             margin-top: 10px;
         }
