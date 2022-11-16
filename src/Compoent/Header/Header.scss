@@ -1,0 +1,29 @@
+@use "../../variables.scss" as *;
+
+.headerContainer {
+
+    width: min-content;
+    height: min-content;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    margin-top: 300px;
+    font-family: $font-primary;
+
+    h1{
+        font-size: 120px;
+        font-weight: bolder;
+        margin-right: 30px;
+    }
+
+    h2{
+        font-size: 70px;
+        margin-top: 15px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+    
+
+}
